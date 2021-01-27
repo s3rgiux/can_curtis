@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target sixpair[0m
+[ 50%] [32mBuilding C object CMakeFiles/sixpair.dir/src/sixpair.c.o[0m
+[100%] [32m[1mLinking C executable /home/jetson/catkin_ws/devel/.private/ps3joy/lib/ps3joy/sixpair[0m
+[100%] Built target sixpair

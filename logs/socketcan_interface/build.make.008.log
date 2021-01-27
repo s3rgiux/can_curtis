@@ -1,0 +1,4 @@
+[ 25%] Built target socketcan_interface_plugin
+[ 50%] Built target socketcan_interface_string
+[ 75%] Built target socketcan_dump
+[100%] Built target socketcan_bcm

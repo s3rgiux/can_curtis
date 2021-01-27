@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetson/catkin_ws/devel/.private/canopen_motor_node/setup.sh

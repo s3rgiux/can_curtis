@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target spacenav_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o[0m
+[01m[K/home/jetson/catkin_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp:40:10:[m[K [01;31m[Kfatal error: [m[Kspnav.h: No such file or directory
+ #include [01;31m[K"spnav.h"[m[K  // NOLINT
+          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/spacenav_node.dir/build.make:62: recipe for target 'CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o' failed
+make[2]: *** [CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o] Error 1
+CMakeFiles/Makefile2:1252: recipe for target 'CMakeFiles/spacenav_node.dir/all' failed
+make[1]: *** [CMakeFiles/spacenav_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

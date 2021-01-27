@@ -1,0 +1,8 @@
+prefix=/home/jetson/catkin_ws/devel/.private/socketcan_bridge
+
+Name: socketcan_bridge
+Description: Description of socketcan_bridge
+Version: 0.8.4
+Cflags: -I/home/jetson/catkin_ws/src/ros_canopen/socketcan_bridge/include
+Libs: -L${prefix}/lib -lsocketcan_to_topic -ltopic_to_socketcan
+Requires: can_msgs rosconsole_bridge roscpp socketcan_interface

@@ -1,0 +1,4 @@
+Symlinking /home/jetson/catkin_ws/devel/share/ps3joy/cmake/ps3joyConfig.cmake
+Symlinking /home/jetson/catkin_ws/devel/share/ps3joy/cmake/ps3joyConfig-version.cmake
+Symlinking /home/jetson/catkin_ws/devel/lib/pkgconfig/ps3joy.pc
+Symlinking /home/jetson/catkin_ws/devel/lib/ps3joy/sixpair

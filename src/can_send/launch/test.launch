@@ -1,0 +1,19 @@
+<launch>
+
+<group ns="j0">
+  <!-- assumes ds4drv is running -->
+  <node name="ds4_joystick" pkg="joy" type="joy_node">
+    <param name = "dev" value= "/dev/input/js0"/>
+    <param name = "autorepeat_rate" value ="25"/>
+  </node>
+
+</group>  
+
+  <node name="bridgecan" pkg="socketcan_bridge" type="topic_to_socketcan_node">
+  </node>
+
+  <node name="sendcann" pkg="can_send" type="main.py">
+  </node>
+  
+
+</launch>

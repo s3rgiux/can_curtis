@@ -1,0 +1,25 @@
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target can_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target can_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target can_msgs_generate_messages_nodejs
+[  0%] Built target can_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target can_msgs_generate_messages_lisp
+[ 50%] Built target topic_to_socketcan
+[ 50%] Built target socketcan_to_topic
+[ 66%] Built target socketcan_to_topic_node
+[100%] Built target topic_to_socketcan_node
+[100%] Built target socketcan_bridge_node

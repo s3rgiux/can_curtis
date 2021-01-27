@@ -1,0 +1,6 @@
+joystick_drivers/joy
+/home/jetson/catkin_ws/devel/.private/joy/cmake.lock /home/jetson/catkin_ws/devel/./cmake.lock
+/home/jetson/catkin_ws/devel/.private/joy/share/joy/cmake/joyConfig-version.cmake /home/jetson/catkin_ws/devel/share/joy/cmake/joyConfig-version.cmake
+/home/jetson/catkin_ws/devel/.private/joy/share/joy/cmake/joyConfig.cmake /home/jetson/catkin_ws/devel/share/joy/cmake/joyConfig.cmake
+/home/jetson/catkin_ws/devel/.private/joy/lib/joy/joy_node /home/jetson/catkin_ws/devel/lib/joy/joy_node
+/home/jetson/catkin_ws/devel/.private/joy/lib/pkgconfig/joy.pc /home/jetson/catkin_ws/devel/lib/pkgconfig/joy.pc

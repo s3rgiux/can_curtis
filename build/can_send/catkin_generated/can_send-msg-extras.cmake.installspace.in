@@ -1,0 +1,2 @@
+set(can_send_MESSAGE_FILES "msg/Frame.msg")
+set(can_send_SERVICE_FILES "")

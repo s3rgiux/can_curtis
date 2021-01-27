@@ -1,0 +1,3 @@
+[01m[K/home/jetson/catkin_ws/src/joystick_drivers/joy/src/joy_node.cpp:84:51:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(DIR*) {aka int (*)(__dirstream*)}[m[K’ [[01;35m[K-Wignored-attributes[m[K]
+   typedef std::unique_ptr<DIR, decltype(&closedir)[01;35m[K>[m[K dir_ptr;
+                                                   [01;35m[K^[m[K

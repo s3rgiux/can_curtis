@@ -1,0 +1,5 @@
+Symlinking /home/jetson/catkin_ws/devel/share/canopen_402/cmake/canopen_402Config.cmake
+Symlinking /home/jetson/catkin_ws/devel/share/canopen_402/cmake/canopen_402Config-version.cmake
+Symlinking /home/jetson/catkin_ws/devel/lib/libcanopen_402_plugin.so
+Symlinking /home/jetson/catkin_ws/devel/lib/libcanopen_402.so
+Symlinking /home/jetson/catkin_ws/devel/lib/pkgconfig/canopen_402.pc

@@ -1,0 +1,4 @@
+Symlinking /home/jetson/catkin_ws/devel/share/spacenav_node/cmake/spacenav_nodeConfig-version.cmake
+Symlinking /home/jetson/catkin_ws/devel/share/spacenav_node/cmake/spacenav_nodeConfig.cmake
+Symlinking /home/jetson/catkin_ws/devel/lib/pkgconfig/spacenav_node.pc
+Symlinking /home/jetson/catkin_ws/devel/lib/spacenav_node/spacenav_node

@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target canopen_402[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/canopen_402.dir/src/motor.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/jetson/catkin_ws/devel/.private/canopen_402/lib/libcanopen_402.so[0m
+[ 50%] Built target canopen_402
+[35m[1mScanning dependencies of target canopen_402_plugin[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/canopen_402_plugin.dir/src/plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/jetson/catkin_ws/devel/.private/canopen_402/lib/libcanopen_402_plugin.so[0m
+[100%] Built target canopen_402_plugin

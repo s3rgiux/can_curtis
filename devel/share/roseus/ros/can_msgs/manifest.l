@@ -1,0 +1,1 @@
+/home/jetson/catkin_ws/devel/.private/can_msgs/share/roseus/ros/can_msgs/manifest.l

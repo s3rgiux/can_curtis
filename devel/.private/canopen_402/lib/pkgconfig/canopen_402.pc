@@ -1,0 +1,8 @@
+prefix=/home/jetson/catkin_ws/devel/.private/canopen_402
+
+Name: canopen_402
+Description: Description of canopen_402
+Version: 0.8.4
+Cflags: -I/home/jetson/catkin_ws/src/ros_canopen/canopen_402/include -I/usr/include
+Libs: -L${prefix}/lib -lcanopen_402
+Requires: canopen_master

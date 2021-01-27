@@ -1,0 +1,50 @@
+[01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:[m[K In member function ‘[01m[Kint usb_cam::UsbCam::init_mjpeg_decoder(int, int)[m[K’:
+[01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:386:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint avpicture_alloc(AVPicture*, AVPixelFormat, int, int)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   avpicture_alloc((AVPicture *)avframe_rgb_, AV_PIX_FMT_RGB24, image_width, image_height[01;35m[K)[m[K;
+                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/jetson/catkin_ws/src/usb_cam/include/usb_cam/usb_cam.h:44:0[m[K,
+                 from [01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:55[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:5626:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int [01;36m[Kavpicture_alloc[m[K(AVPicture *picture, enum AVPixelFormat pix_fmt, int width, int height);
+     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:397:90:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint avpicture_get_size(AVPixelFormat, int, int)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   avframe_camera_size_ = avpicture_get_size(AV_PIX_FMT_YUV422P, image_width, image_height[01;35m[K)[m[K;
+                                                                                          [01;35m[K^[m[K
+In file included from [01m[K/home/jetson/catkin_ws/src/usb_cam/include/usb_cam/usb_cam.h:44:0[m[K,
+                 from [01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:55[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:5653:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int [01;36m[Kavpicture_get_size[m[K(enum AVPixelFormat pix_fmt, int width, int height);
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:398:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint avpicture_get_size(AVPixelFormat, int, int)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   avframe_rgb_size_ = avpicture_get_size(AV_PIX_FMT_RGB24, image_width, image_height[01;35m[K)[m[K;
+                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/home/jetson/catkin_ws/src/usb_cam/include/usb_cam/usb_cam.h:44:0[m[K,
+                 from [01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:55[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:5653:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int [01;36m[Kavpicture_get_size[m[K(enum AVPixelFormat pix_fmt, int width, int height);
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:[m[K In member function ‘[01m[Kvoid usb_cam::UsbCam::mjpeg2rgb(char*, int, char*, int)[m[K’:
+[01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:422:94:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint avcodec_decode_video2(AVCodecContext*, AVFrame*, int*, const AVPacket*)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   decoded_len = avcodec_decode_video2(avcodec_context_, avframe_camera_, &got_picture, &avpkt[01;35m[K)[m[K;
+                                                                                              [01;35m[K^[m[K
+In file included from [01m[K/home/jetson/catkin_ws/src/usb_cam/include/usb_cam/usb_cam.h:44:0[m[K,
+                 from [01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:55[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:4993:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int [01;36m[Kavcodec_decode_video2[m[K(AVCodecContext *avctx, AVFrame *picture,
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:441:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint avpicture_get_size(AVPixelFormat, int, int)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   int pic_size = avpicture_get_size(avcodec_context_->pix_fmt, xsize, ysize[01;35m[K)[m[K;
+                                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/jetson/catkin_ws/src/usb_cam/include/usb_cam/usb_cam.h:44:0[m[K,
+                 from [01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:55[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:5653:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int [01;36m[Kavpicture_get_size[m[K(enum AVPixelFormat pix_fmt, int width, int height);
+     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:454:123:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint avpicture_layout(const AVPicture*, AVPixelFormat, int, int, unsigned char*, int)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   int size = avpicture_layout((AVPicture *)avframe_rgb_, AV_PIX_FMT_RGB24, xsize, ysize, (uint8_t *)RGB, avframe_rgb_size_[01;35m[K)[m[K;
+                                                                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/jetson/catkin_ws/src/usb_cam/include/usb_cam/usb_cam.h:44:0[m[K,
+                 from [01m[K/home/jetson/catkin_ws/src/usb_cam/src/usb_cam.cpp:55[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:5645:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int [01;36m[Kavpicture_layout[m[K(const AVPicture *src, enum AVPixelFormat pix_fmt,
+     [01;36m[K^~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,81 @@
+[35m[1mScanning dependencies of target controller_manager_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target controller_manager_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target controller_manager_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[  0%] Built target controller_manager_msgs_generate_messages_eus
+[  0%] Built target controller_manager_msgs_generate_messages_lisp
+[  0%] Built target controller_manager_msgs_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[35m[1mScanning dependencies of target canopen_chain_node_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target canopen_chain_node_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target canopen_chain_node_generate_messages_eus[0m
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target canopen_chain_node_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target canopen_chain_node_generate_messages_eus
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target canopen_chain_node_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target canopen_chain_node_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+[  0%] Built target canopen_chain_node_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target canopen_chain_node_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target canopen_chain_node_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target controller_manager_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target controller_manager_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target controller_manager_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target controller_manager_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target canopen_motor[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/canopen_motor.dir/src/robot_layer.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/canopen_motor.dir/src/controller_manager_layer.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/canopen_motor.dir/src/handle_layer.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/canopen_motor.dir/src/motor_chain.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library /home/jetson/catkin_ws/devel/.private/canopen_motor_node/lib/libcanopen_motor.so[0m
+[ 71%] Built target canopen_motor
+[35m[1mScanning dependencies of target canopen_motor_node[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/canopen_motor_node.dir/src/canopen_motor_chain_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/jetson/catkin_ws/devel/.private/canopen_motor_node/lib/canopen_motor_node/canopen_motor_node[0m
+[100%] Built target canopen_motor_node

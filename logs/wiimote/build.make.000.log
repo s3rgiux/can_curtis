@@ -1,0 +1,81 @@
+[35m[1mScanning dependencies of target _wiimote_generate_messages_check_deps_TimedSwitch[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _wiimote_generate_messages_check_deps_IrSourceInfo[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _wiimote_generate_messages_check_deps_TimedSwitch
+[  0%] Built target _wiimote_generate_messages_check_deps_IrSourceInfo
+[35m[1mScanning dependencies of target _wiimote_generate_messages_check_deps_State[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target _wiimote_generate_messages_check_deps_State
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target wiimote_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target wiimote_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  4%] [34m[1mGenerating C++ code from wiimote/TimedSwitch.msg[0m
+[  9%] [34m[1mGenerating Javascript code from wiimote/TimedSwitch.msg[0m
+[ 13%] [34m[1mGenerating C++ code from wiimote/IrSourceInfo.msg[0m
+[ 18%] [34m[1mGenerating Javascript code from wiimote/IrSourceInfo.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from wiimote/State.msg[0m
+[ 27%] [34m[1mGenerating C++ code from wiimote/State.msg[0m
+[ 27%] Built target wiimote_generate_messages_nodejs
+[35m[1mScanning dependencies of target wiimote_generate_messages_py[0m
+[35m[1mScanning dependencies of target wiimote_generate_messages_lisp[0m
+[ 31%] [34m[1mGenerating Python from MSG wiimote/TimedSwitch[0m
+[ 36%] [34m[1mGenerating Lisp code from wiimote/TimedSwitch.msg[0m
+[ 40%] [34m[1mGenerating Lisp code from wiimote/IrSourceInfo.msg[0m
+[ 45%] [34m[1mGenerating Python from MSG wiimote/IrSourceInfo[0m
+[ 50%] [34m[1mGenerating Lisp code from wiimote/State.msg[0m
+[ 50%] Built target wiimote_generate_messages_cpp
+[ 54%] [34m[1mGenerating Python from MSG wiimote/State[0m
+[ 54%] Built target wiimote_generate_messages_lisp
+[35m[1mScanning dependencies of target wiimote_generate_messages_eus[0m
+[ 59%] [34m[1mGenerating EusLisp code from wiimote/TimedSwitch.msg[0m
+[ 63%] [34m[1mGenerating EusLisp code from wiimote/IrSourceInfo.msg[0m
+[ 68%] [34m[1mGenerating Python msg __init__.py for wiimote[0m
+[ 72%] [34m[1mGenerating EusLisp manifest code for wiimote[0m
+[ 77%] [34m[1mGenerating EusLisp code from wiimote/State.msg[0m
+[ 77%] Built target wiimote_generate_messages_py
+[35m[1mScanning dependencies of target wiimote_node[0m
+[35m[1mScanning dependencies of target teleop_wiimote[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/teleop_wiimote.dir/src/teleop_wiimote.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o[0m
+In file included from [01m[K/home/jetson/catkin_ws/src/joystick_drivers/wiimote/src/wiimote_controller.cpp:45:0[m[K:
+[01m[K/home/jetson/catkin_ws/src/joystick_drivers/wiimote/include/wiimote/wiimote_controller.h:49:10:[m[K [01;31m[Kfatal error: [m[Kbluetooth/bluetooth.h: No such file or directory
+ #include [01;31m[K<bluetooth/bluetooth.h>[m[K  // libbluetooth.so
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/wiimote_node.dir/build.make:62: recipe for target 'CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o' failed
+CMakeFiles/Makefile2:164: recipe for target 'CMakeFiles/wiimote_node.dir/all' failed
+make[2]: *** [CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/wiimote_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 86%] Built target wiimote_generate_messages_eus
+[ 90%] [32m[1mLinking CXX executable /home/jetson/catkin_ws/devel/.private/wiimote/lib/wiimote/teleop_wiimote[0m
+[ 90%] Built target teleop_wiimote
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

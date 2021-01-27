@@ -1,0 +1,6 @@
+joystick_drivers/ps3joy
+/home/jetson/catkin_ws/devel/.private/ps3joy/cmake.lock /home/jetson/catkin_ws/devel/./cmake.lock
+/home/jetson/catkin_ws/devel/.private/ps3joy/share/ps3joy/cmake/ps3joyConfig.cmake /home/jetson/catkin_ws/devel/share/ps3joy/cmake/ps3joyConfig.cmake
+/home/jetson/catkin_ws/devel/.private/ps3joy/share/ps3joy/cmake/ps3joyConfig-version.cmake /home/jetson/catkin_ws/devel/share/ps3joy/cmake/ps3joyConfig-version.cmake
+/home/jetson/catkin_ws/devel/.private/ps3joy/lib/pkgconfig/ps3joy.pc /home/jetson/catkin_ws/devel/lib/pkgconfig/ps3joy.pc
+/home/jetson/catkin_ws/devel/.private/ps3joy/lib/ps3joy/sixpair /home/jetson/catkin_ws/devel/lib/ps3joy/sixpair

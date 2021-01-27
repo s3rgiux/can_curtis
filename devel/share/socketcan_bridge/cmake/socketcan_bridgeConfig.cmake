@@ -1,0 +1,1 @@
+/home/jetson/catkin_ws/devel/.private/socketcan_bridge/share/socketcan_bridge/cmake/socketcan_bridgeConfig.cmake

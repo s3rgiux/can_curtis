@@ -1,0 +1,28 @@
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _wiimote_generate_messages_check_deps_IrSourceInfo
+[  0%] Built target _wiimote_generate_messages_check_deps_TimedSwitch
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _wiimote_generate_messages_check_deps_State
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 13%] Built target wiimote_generate_messages_nodejs
+[ 27%] Built target wiimote_generate_messages_cpp
+[ 45%] Built target wiimote_generate_messages_py
+[ 59%] Built target wiimote_generate_messages_lisp
+[ 77%] Built target wiimote_generate_messages_eus
+[ 77%] Built target wiimote_generate_messages
+[ 81%] [32mBuilding CXX object CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o[0m
+[ 90%] Built target teleop_wiimote
+[ 95%] [32m[1mLinking CXX executable /home/jetson/catkin_ws/devel/.private/wiimote/lib/wiimote/wiimote_node[0m
+[100%] Built target wiimote_node

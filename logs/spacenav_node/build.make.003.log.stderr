@@ -1,0 +1,7 @@
+[01m[K/home/jetson/catkin_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp:40:10:[m[K [01;31m[Kfatal error: [m[Kspnav.h: No such file or directory
+ #include [01;31m[K"spnav.h"[m[K  // NOLINT
+          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/spacenav_node.dir/all] Error 2
+make: *** [all] Error 2

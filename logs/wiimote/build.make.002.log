@@ -1,0 +1,37 @@
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _wiimote_generate_messages_check_deps_IrSourceInfo
+[  0%] Built target _wiimote_generate_messages_check_deps_TimedSwitch
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _wiimote_generate_messages_check_deps_State
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 13%] Built target wiimote_generate_messages_cpp
+[ 27%] Built target wiimote_generate_messages_nodejs
+[ 45%] Built target wiimote_generate_messages_py
+[ 59%] Built target wiimote_generate_messages_lisp
+[ 77%] Built target wiimote_generate_messages_eus
+[ 81%] [32mBuilding CXX object CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o[0m
+[ 90%] Built target teleop_wiimote
+[ 90%] Built target wiimote_generate_messages
+In file included from [01m[K/home/jetson/catkin_ws/src/joystick_drivers/wiimote/src/wiimote_controller.cpp:45:0[m[K:
+[01m[K/home/jetson/catkin_ws/src/joystick_drivers/wiimote/include/wiimote/wiimote_controller.h:49:10:[m[K [01;31m[Kfatal error: [m[Kbluetooth/bluetooth.h: No such file or directory
+ #include [01;31m[K<bluetooth/bluetooth.h>[m[K  // libbluetooth.so
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/wiimote_node.dir/build.make:62: recipe for target 'CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o' failed
+make[2]: *** [CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o] Error 1
+CMakeFiles/Makefile2:164: recipe for target 'CMakeFiles/wiimote_node.dir/all' failed
+make[1]: *** [CMakeFiles/wiimote_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

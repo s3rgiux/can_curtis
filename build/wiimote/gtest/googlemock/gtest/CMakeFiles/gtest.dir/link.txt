@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -fPIE -fPIC -O2 -D_FORTIFY_SOURCE=2 -fstack-protector -Wformat -Wformat-security -Wall  -z noexecstack -z relro -z now  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/jetson/catkin_ws/build/wiimote/gtest/googlemock/gtest/src -Wl,-rpath,/home/jetson/catkin_ws/build/wiimote/gtest/googlemock/gtest/src -lpthread 

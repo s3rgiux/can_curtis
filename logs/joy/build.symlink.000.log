@@ -1,0 +1,4 @@
+Symlinking /home/jetson/catkin_ws/devel/share/joy/cmake/joyConfig-version.cmake
+Symlinking /home/jetson/catkin_ws/devel/share/joy/cmake/joyConfig.cmake
+Symlinking /home/jetson/catkin_ws/devel/lib/joy/joy_node
+Symlinking /home/jetson/catkin_ws/devel/lib/pkgconfig/joy.pc
